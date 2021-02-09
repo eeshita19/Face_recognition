@@ -2,7 +2,7 @@ import flask
 from flask import Flask, request, render_template, redirect, url_for
 import os
 
-UPLOAD_FOLDER = './uploads'
+UPLOAD_FOLDER = './static/images'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 app = Flask(__name__)
